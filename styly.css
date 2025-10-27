@@ -1,10 +1,14 @@
 body {
-    background-color: rgba(253, 230, 199, 0.623);
+    background: url("jesen_pozadie.jpg");
+    background-repeat: no-repeat; /* obrazok sa nebude opakovat */
+    background-size: cover;        /* velkost obrazka sa prispôsobi velkosti pozadia */
+    background-attachment: fixed;   /* obrazok sa mi skrolovani nebude pohybovať */
 }
 
 h1 {
     text-align: center; /* zarovnanie na stred */
     text-shadow: 2px 2px 5px rgb(79, 209, 192);
+    color: white;
 }
 
 img {
