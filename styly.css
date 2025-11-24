@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
 body {
     background: url("jesen_pozadie.jpg");
     background-repeat: no-repeat; /* obrazok sa nebude opakovat */
@@ -32,7 +40,6 @@ img {
 }
 
 p {
-    border: 2px solid black;
     padding-top: 10px;
     padding-left: 20px;
 }
@@ -48,6 +55,20 @@ a {
 }
 
 .nadpis-3-uroven {
-    border: 5px solid black;
     margin-bottom: 50px;
+}
+
+footer {
+    background-color: rgb(228, 175, 105);
+    text-align: center;
+}
+
+.sekcia-filmy {
+    text-align: center;
+    color: rgb(42, 68, 107);
+}
+
+.tucne-cervene {
+    color: #fda9dd;
+    font-weight: bold;
 }
