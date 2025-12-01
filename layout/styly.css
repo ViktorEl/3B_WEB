@@ -5,7 +5,56 @@
 }
 
 header h1 {
+    font-size: 2rem;
     text-align: center;
-    width: 600px;
+    width: 20%;
     margin: 0px auto;
+}
+
+
+.obrazok-1 {
+    margin-left: 20px;
+    width: 21%;
+    float: left;
+}
+
+.obrazok-1 img {
+    width: 100%;
+}
+
+.text {
+    margin-left: 20px;
+    width: 37%;
+    height: 100px;
+    float: left;
+    text-align: justify;
+}
+
+.video-container {
+    margin-left: 20px;
+    width: 37%;
+    height: 100px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
