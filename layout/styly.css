@@ -33,10 +33,12 @@ header h1 {
 .video-container {
     margin-left: 20px;
     width: 37%;
-    height: 100px;
     float: left;
 }
 
+.video-container iframe {
+    aspect-ratio: 16 / 9;
+}
 
 
 

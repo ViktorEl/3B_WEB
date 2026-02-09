@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(246, 144, 161);
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    width: 100%;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+}

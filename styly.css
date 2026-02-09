@@ -72,3 +72,13 @@ footer {
     color: #fda9dd;
     font-weight: bold;
 }
+
+
+
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

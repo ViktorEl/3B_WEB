@@ -1,0 +1,44 @@
+
+
+
+.cervena {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.zelena {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.modra {
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
