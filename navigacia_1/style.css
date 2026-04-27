@@ -3,13 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/**** HEADER ****/
 h1 {
     text-align: center;
     margin: 5px 0px;
     font-size: 2.5rem;
 }
 
+/**** Navigácia ****/
 ul {
     text-align: center;
 }
@@ -23,4 +24,29 @@ ul li{
 ul li a {
     font-size: 2rem;
     text-decoration: none;
+}
+
+ul li {
+    border-bottom: 4px solid rgba(0, 60, 255, 0);
+    transition: border-bottom 0.5s;
+}
+
+ul li:hover {
+    border-bottom: 4px solid rgb(0, 60, 255);
+}
+
+nav {
+    background-color: #d7bb98;
+}
+
+ul li a:active {
+    color: #00ffff;
+}
+
+ul li a:visited {
+    color: #008000;
+}
+
+ul li a:link {
+    color: black;
 }
