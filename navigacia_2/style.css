@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    color: #2b6ce4;
+}
+
+.zelene-pismo {
+    color: #72ce38;
+}
+
+nav {
+    background-color: rgb(240, 241, 241);
+}
+
+
+ul {
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+ul li {
+   list-style-type: none;
+   display: inline-block;
+}
+
+ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 10px;
+    transition: background-color 0.5s;
+}
+
+
+ul li a:hover,
+ul li a:active {
+    background-color: #2b6ce4;
+    color: #ffffff;
+}
